@@ -18,7 +18,6 @@ namespace ThreadPriority
                 Console.WriteLine("Name of Thread: " + thread.Name + " = " + i);
                 Thread.Sleep(500);
             }
-
         }
 
         public static void Thread2()
@@ -30,7 +29,6 @@ namespace ThreadPriority
                 Thread.Sleep(1500);
             }
         }
-
 
     }
 }
